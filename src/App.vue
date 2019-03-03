@@ -13,6 +13,10 @@ export default {
 </script>
 
 <style>
+*:focus{
+  outline: none;
+}
+
 body{
   margin: 0px;
   padding: 0px;
@@ -27,5 +31,9 @@ body{
   height: 100vh;
   width: 100vw;
   background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+h1{
+  color: white;
 }
 </style>
