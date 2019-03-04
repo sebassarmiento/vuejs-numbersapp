@@ -1,8 +1,7 @@
 <template>
   <div class="math-container">
     <BackBtn />
-    <h1>Math component</h1>
-    <Search />
+    <Search category="math" />
   </div>
 </template>
 
